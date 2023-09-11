@@ -10,9 +10,19 @@ header {
     color: whitesmoke;
     height: 60px;
     display:flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
 }
+.header-logo{
+    /* float: left; */
+    margin-bottom: 100px;
+
+}
+.header-logo2{
+    /* float: left; */
+    margin-top: 40px;
+}
+
 label{
     display: block;
     margin-bottom: 2px;
@@ -20,6 +30,12 @@ label{
     font-weight: bold;
     color: #053B50;
 
+}
+.Welcome{
+    margin-top: 50px;
+}
+.Welcome , p {
+    text-align: center;
 }
 input{
     padding: 6px;
