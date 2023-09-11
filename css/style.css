@@ -32,6 +32,32 @@ label{
 .Welcome , p {
     text-align: center;
 }
+.button-persegi {
+    background-color: #176B87;
+    color: whitesmoke;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-persegi-panjang {
+    margin-top: 10px;
+    background-color: #176B87;
+    color: whitesmoke;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-persegi:active, .button-persegi-panjang:active {
+    color: #176B87;
+    background-color: whitesmoke;
+}
+
 input{
     padding: 6px;
     border: solid #176B87 1px;
