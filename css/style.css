@@ -10,17 +10,12 @@ header {
     color: whitesmoke;
     height: 60px;
     display:flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
 }
-.header-logo{
-    /* float: left; */
-    margin-bottom: 100px;
-
-}
 .header-logo2{
-    /* float: left; */
-    margin-top: 40px;
+    margin-left: 5px;
+    margin-top: 37px;
 }
 
 label{
