@@ -1,8 +1,16 @@
-function switchPersegi() {
-    let p = document.getElementById("info");
-    if (p.style.display === "none") {
-        p.style.display = "block";
+const inputField = document.getElementById("inputField")
+const hitungButton = document.getElementById("hitungButton")
+
+inputField.addEventListener('input', function (){
+    var inputNilai = inputField.value.trim()
+    if(validasiInt(inputNilai)) {
+        hitungButton.disabled = false
     } else {
-        p.style.display = "none";
+        hitungButton.disabled = true
     }
+})
+
+function validasiInt(inputNilai) {
+    const integerReg = /^-?\d+$/
+    return integerReg.test(inputNilai)
 }

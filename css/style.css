@@ -57,7 +57,15 @@ label{
     color: #176B87;
     background-color: whitesmoke;
 }
-
+.Luas {
+    margin-top: 10px;
+    background-color:#176B87 ;
+    height: 65px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 input{
     padding: 6px;
     border: solid #176B87 1px;
@@ -80,7 +88,9 @@ button:hover {
 button:active {
     transform: translateY(2px);
 }
-
+/* button:disabled {
+    background-color: red;
+} */
 input:focus {
     border-color: #053B50;
 }
@@ -99,4 +109,3 @@ input:focus {
 .inputButtonSection, .hitungButton{
     margin-right: 10px;
 }
-
